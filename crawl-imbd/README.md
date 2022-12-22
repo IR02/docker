@@ -6,6 +6,8 @@ We differ between:
 - Image: Template for running containers
 - Container: Running process with the packaged project
 
+## How to Get Started
+
 ## 1. Build the Docker image
 
 ```console
@@ -29,3 +31,5 @@ $ docker run -it python-imdb
 ```
 
 -i: intreactive, -t: pseudo terminal
+
+*rebuild image [#1] when code is changed
