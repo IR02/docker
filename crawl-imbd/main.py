@@ -37,7 +37,9 @@ def main():
         # comment the next line out to test user input with docker run -t -i
         break
     
-    
+        user_input = input('Do you want another movie (y/[n])? ')
+        if user_input != 'y':
+            break
 
 if __name__ == '__main__':
     main()
