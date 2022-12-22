@@ -1,2 +1,2 @@
 # dockerize-python
-Docker for Python development
+Practice Docker for Python development
