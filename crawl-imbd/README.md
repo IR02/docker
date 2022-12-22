@@ -22,7 +22,7 @@ $ docker run python-imdb
 
 With user input
 
-- Comment out the 'break' in [main.py]:
+- Comment out the 'break' in [main.py](./main.py):
 
 ```console
 $ docker run -it python-imdb
