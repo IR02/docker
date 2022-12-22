@@ -19,3 +19,13 @@ Without user input:
 ```console
 $ docker run python-imdb
 ```
+
+With user input
+
+- Comment out the 'break' in [main.py]:
+
+```console
+$ docker run -it python-imdb
+```
+
+-i: intreactive, -t: pseudo terminal
